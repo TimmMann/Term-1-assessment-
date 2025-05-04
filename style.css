@@ -38,7 +38,9 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
     font-size: 2.5rem;
-    position: relative;
+    position: r
+    About Me
+    elative;
     display: inline-block;
     margin-bottom: 2rem;
 }
@@ -159,7 +161,7 @@ section {
 
 /* Hero Section */
 .hero {
-    background-image: linear-gradient(rgba(30, 41, 59, 0.7), rgba(30, 41, 59, 0.7)), url('https://via.placeholder.com/1600x900');
+    background-image: linear-gradient(rgba(30, 41, 59, 0.7), rgba(30, 41, 59, 0.7)), url('src/images/Untitled design.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -202,7 +204,20 @@ section {
 }
 
 .about-image {
-    flex: 1;
+    flex: 0.7;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+
+.about-image img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .about-text {
